@@ -28,6 +28,9 @@ case  $palette in
     "dark")
         source $current_dir/colors/dark.sh
         ;;
+    "nordic")
+        source $current_dir/colors/nordic.sh
+        ;;
 esac
 
 set "status" "on"
