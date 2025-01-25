@@ -1,4 +1,5 @@
-tmux set-option -g @thm_black "#282828"
+# tmux set-option -g @thm_black "#282828"
+tmux set-option -g @thm_black "#1d2021"
 tmux set-option -g @thm_bg "#1d2021"
 tmux set-option -g @thm_grey "#928374"
 tmux set-option -g @thm_fg "#f9f5d7"
