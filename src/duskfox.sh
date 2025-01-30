@@ -1,0 +1,12 @@
+tmux set-option -g @thm_black "#000000"
+tmux set-option -g @thm_bg "#232136"
+tmux set-option -g @thm_grey "#6e6a86"
+tmux set-option -g @thm_fg "#cdcecf"
+tmux set-option -g @thm_red      '#eb6f92'
+tmux set-option -g @thm_green    '#a3be8c'
+tmux set-option -g @thm_yellow   '#f6c177'
+tmux set-option -g @thm_blue     '#569fba'
+tmux set-option -g @thm_purple   '#c4a7e7'
+tmux set-option -g @thm_aqua     '#9ccfd8'
+tmux set-option -g @thm_orange   '#ea9a97'
+tmux set-option -g @thm_light_grey "#cdcbe0"
