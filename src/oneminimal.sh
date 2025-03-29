@@ -5,7 +5,7 @@ current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 source $current_dir/utils.sh
 
 # load colorscheme
-theme_colorscheme=`get @thm_variant "nordic"`
+theme_colorscheme=`get @thm_variant "default"`
 source $current_dir/$theme_colorscheme.sh
 
 tmux set-option -gq "status" "on"
