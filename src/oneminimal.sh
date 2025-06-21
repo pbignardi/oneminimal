@@ -60,4 +60,4 @@ tmux set-option -gq "status-right" " #[fg=#{@thm_green}, bg=#{@thm_bg}]${status_
 tmux set-option -gq "status-left" "#[fg=#{@thm_purple},bg=#{@thm_bg},italics]   #S #{prefix_highlight} "
 
 tmux set-option -gq "window-status-format" "#[fg=#{@thm_fg},bg=#{@thm_bg},nobold] #I #W "
-tmux set-option -gq "window-status-current-format" "#[fg=#{@thm_yellow},bg=#{@thm_bg},bold]  #W "
+tmux set-option -gq "window-status-current-format" "#[fg=#{@thm_green},bg=#{@thm_bg},bold]  #W "
