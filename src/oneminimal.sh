@@ -48,8 +48,8 @@ tmux set-option -gq "@prefix_highlight_output_prefix" " / "
 time_format="%R"
 date_format="%d/%m/%Y"
 
-tmux set-option -gq "status-right" " #[fg=green, bg=black]${status_widgets} #[fg=gray,bg=black,nounderscore,italics] $(whoami)@$(hostname -s)  #[fg=blue,bg=black,nounderscore,noitalics]${time_format} "
-tmux set-option -gq "status-left" "#[fg=magenta,bg=black,italics]   #S #{prefix_highlight} "
+tmux set-option -gq "status-right" " #[fg=green, bg=black]${status_widgets} #[fg=black,bg=black,bold,italics] 󰇅 $(whoami)@$(hostname -s) ▍ #[fg=black,bg=black,bold,noitalics]${time_format} "
+tmux set-option -gq "status-left" "#[fg=black,bg=blue,italics]   #S #{prefix_highlight}▐"
 
-tmux set-option -gq "window-status-format" "#[fg=white,bg=black,nobold] #I #W "
-tmux set-option -gq "window-status-current-format" "#[fg=green,bg=black,bold]  #W "
+tmux set-option -gq "window-status-format" "#[fg=black,bg=black,bold] #I~#W "
+tmux set-option -gq "window-status-current-format" "#[bg=black,fg=magenta,bold]▎#I~#W "
